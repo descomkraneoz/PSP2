@@ -9,7 +9,7 @@ public class ContarAdelante implements Runnable{
     public void run() {
         for (int i=0;i<=limite;i++) {
             try {
-                Thread.sleep((long) (Math.random() * 1000));
+                Thread.sleep(1000);
             } catch (Exception e) {
                 e.printStackTrace();
             }

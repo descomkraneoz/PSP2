@@ -1,14 +1,9 @@
-package Ejercicio2;
+package Ejercicio3;
 
-public class ContarAtras implements Runnable {
-    private int limite;
-
-    public ContarAtras(int limite){
-        this.limite=limite;
-    }
+public class ContarNormal implements Runnable {
     @Override
     public void run() {
-        for (int i=limite;i>=0;i--) {
+        for (int i = 0; i <= 10; i++) {
             try {
                 Thread.sleep(1000);
             } catch (Exception e) {
